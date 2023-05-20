@@ -15,5 +15,6 @@ const mailOptions = {
 	subject: 'mail from node.js',
 	text: 'text from mail from node.js',
 }
+//in "to" enter your recive mail
 
-transporter.sendMail(mailOptions)
+transporter.sendMail(mailOptions) //<<<=== err??
